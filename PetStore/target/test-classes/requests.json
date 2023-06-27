@@ -1,0 +1,47 @@
+{
+  "addPetSingleTags": {
+    "id": "{{petId}}",
+    "category": {
+      "id": "{{petId}}",
+      "name": "{{petName}}"
+    },
+    "name": "{{petType}}",
+    "photoUrls": [
+      "{{photoUrl}}"
+    ],
+    "tags": [
+      {
+        "id": "{{petId}}",
+        "name": "{{petName}}"
+      }
+    ],
+    "status": "{{petStatus}}"
+  },
+
+  "addPetMultipleTags": {
+    "id": "{{petId}}",
+    "category": {
+      "id": "{{petId}}",
+      "name": "{{petName}}"
+    },
+    "name": "{{petType}}",
+    "photoUrls": [
+      "{{photoUrl}}"
+    ],
+    "tags": [
+      {
+        "id": "{{petTagId1}}",
+        "name": "{{petTagName1}}"
+      },
+      {
+        "id": "{{petTagId2}}",
+        "name": "{{petTagName2}}"
+      },
+      {
+        "id": "{{petTagId3}}",
+        "name": "{{petTagName3}}"
+      }
+    ],
+    "status": "{{petStatus}}"
+  }
+}
